@@ -1,0 +1,32 @@
+# Python 3.12+
+# Install with: python -m pip install -r requirements.txt
+
+# Web service
+fastapi>=0.115.0
+uvicorn>=0.30.0
+python-dotenv>=1.0.1
+python-multipart>=0.0.9
+pydantic>=2.8.0
+
+# RAG and model orchestration
+langchain>=0.2.14
+langchain-core>=0.2.37
+langchain-community>=0.2.12
+langchain-text-splitters>=0.2.2
+langchain-openai>=0.1.22
+langgraph>=0.2.31
+
+# Vector database and HTTP utilities
+pymilvus>=2.5.0
+requests>=2.32.0
+
+# Document parsing
+pypdf>=4.3.1
+docx2txt>=0.8
+unstructured
+openpyxl
+msoffcrypto-tool
+tabulate
+
+# Console output
+rich>=14.2.0

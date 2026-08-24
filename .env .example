@@ -1,0 +1,29 @@
+# ===== Model =====
+ARK_API_KEY=your_key
+MODELS=Qwen/Qwen3-8B
+#GRADE_MODEL=Qwen/Qwen3-8B
+BASES_URL=https://api.siliconflow.cn/v1
+EMBEDDER=Qwen/Qwen3-Embedding-0.6B
+
+# ===== Rerank (可选，不配则自动降级) =====
+RERANK_MODEL=jina-reranker-v2-base-multilingual
+RERANK_BINDING_HOST=https://api.jina.ai/v1/rerank
+RERANK_API_KEY=your_key
+
+# ===== Milvus =====
+MILVUS_HOST=127.0.0.1
+MILVUS_PORT=19530
+
+# ===== Tools （可选）=====
+AMAP_WEATHER_API=https://restapi.amap.com/
+AMAP_API_KEY=your_key
+
+
+LANGSMITH_TRACING=true
+#LANGSMITH_ENDPOINT=https://api.smith.langchain.com
+LANGSMITH_API_KEY=your_key
+OPENAI_API_KEY=your_key
+MODEL=gpt-3.5-turbo
+BASE_URL=https://api.openai-proxy.org/v1
+
+
